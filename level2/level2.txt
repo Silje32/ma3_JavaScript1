@@ -3,19 +3,91 @@ JavaScript MA03
 Level 2
 
 1. In your own words, describe what JavaScript Code Style is.
+It is important to have a good, clear and consistent JavaScript Code Style
+so your JavaScript is neat and easy to read. If a program is written and expressed
+well, we have a better chance to understand it so that it can be correctly modified,
+repaired and improved. It is important to be conscious of the use of whitespace,
+indentation, statements (multiple statements on a line can be misread), comments
+and braces (putting { at the end of a line instead of the front).
+
+Code that appears to mean one thing but actually means another is likely to cause
+bugs.
+
+
+
 
 2. What is a Regular Expression?
+Regular Expression use special codes to detect patterns in strings of text and
+provide a quick and easy way of matching a string to a pattern. You can set
+up a Regular Expression by using a forward slash at the start and end.
+
+
+
+
 
 3. What does the .random() method do?
+The .random () method returns a pseudo-random number between 0 and 1.
+
+
+
+
+
 
 4. What does the .sort() method do?
+The .sort () method sorts the string in alphabetical order.
+
+
+
+
+
 
 5. What does the .reverse() method do?
+The .reverse () method reverse the order of the string.
+
+
+
+
 
 6. List two examples of bad JavaScript code.
 
+01. The == (double equals sign).
+JavaScript will force one of the values or mutate it to be of the same data type
+as the other. You will not get an accurate test of your variables.
+
+02. Global variables.
+Global variables are slower to find than local or function scope variables. They
+can also easily be overwritten if the developer forgot that they had declared a
+variable as global. If your global variable share the same name as one of your
+other variables, your program is also going to throw some sort of error.
+
+
+
+
+
 7. What data types can a JSON object contain?
 
+A JSON object can contain 6 data types :
+
+01. Objects
+02. Arrays
+03. Strings
+04. Numbers
+05. Booleans
+06. Null
+
+
+
+
+
 8. What is minifying JavaScript Code?
+Minifying JavaScript Code is the process of compression code from the original
+size to the smallest size and does not affect to the operation of the code.
+Minification modifies JavaScript files and makes them compact,
+thereby improving website performance.
+
+
+
 
 9. What is a global variable?
+A global variable is a variable that is visible in every scope. The whole
+application have access to this variable.

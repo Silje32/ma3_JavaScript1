@@ -1,15 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JavaScript - MA03 - Question 1</title>
-</head>
-<body>
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>JavaScript - MA03 - Question 1</title>
+  </head>
+  <body>
 
-<!--Contact Form-->
+  <!--Contact Form-->
+  <p>Please fill in the form and we will contact you :</p>
+    <form action ="">
+      <label>Name :
+          <input type="text" name="name">
+      </label>
+      <label>Last Name :
+          <input type="text" name="last_name">
+      </label>
+      <label>Phone number :
+          <input type="text" name="phone">
+      </label>
+      <label>E-mail :
+          <input type="text" name="e-mail">
+      </label>
+          <button onclick="testInfo(document.getElementById('submit'));">Submit</button>
+    </form>
 
-
-<script src="script.js"></script>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
